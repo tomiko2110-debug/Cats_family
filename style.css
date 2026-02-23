@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("photo/back_cats.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+
+}
+header {
+    text-align: center;
+    color: saddlebrown;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    list-style: none;
+}
+header nav ul li a {
+    position: relative;
+    color: saddlebrown;
+    text-decoration: none;
+    font-weight: 500;
+}
+.intro-text {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #6b1c06;
+    margin: 20px auto;
+    max-width: 600px;
+ }
+
+.hero {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 40px auto;
+    border: 8px solid saddlebrown;
+}
+.photo {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 40px auto;
+    border: 8px solid saddlebrown;
+}
+.contact-address {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: saddlebrown;
+    margin: 60px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(245, 230, 211, 0.5);
+    border-radius: 12px;
+    line-height: 1.6;
+}
